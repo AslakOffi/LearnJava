@@ -10,10 +10,12 @@ public class FirstPlugin extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		System.out.println("Le plugin vient de s'allumer");
-		getCommand("aslak").setExecutor(new CommandTest());
+		getCommand("test").setExecutor(new CommandTest());
 		getCommand("alert").setExecutor(new CommandTest());
 		getCommand("spawn").setExecutor(new CommandSpawn());
-		getServer().getPluginManager().registerEvents(new FirstPluginListeners(), this);	}
+		getServer().getPluginManager().registerEvents(new FirstPluginListeners(), this);
+	
+	}
 	
 	@Override
 	public void onDisable() {

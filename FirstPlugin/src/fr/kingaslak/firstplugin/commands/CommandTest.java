@@ -13,7 +13,7 @@ public class CommandTest implements CommandExecutor {
 		
 		if(sender instanceof Player) {
 			
-			if(cmd.getName().equalsIgnoreCase("aslak")) {
+			if(cmd.getName().equalsIgnoreCase("test")) {
 				Player player = (Player)sender;
 				player.sendMessage("§bAslak est notre §9Dieu");
 				return true;
