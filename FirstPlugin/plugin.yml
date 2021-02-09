@@ -1,0 +1,13 @@
+name: FirstPlugin
+version: 1.0
+author: KingAslak
+main: fr.kingaslak.firstplugin.FirstPlugin
+commands:
+  aslak:
+   description: Ceci est une commande de test
+   permission: aslak.use
+  alert:
+   descirption: Ceci est un broadcast custom
+   permission: bc.use
+  spawn:
+   description: Ceci est une commande pour se téléporter au spawn du serveur
