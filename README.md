@@ -1,2 +1,2 @@
 # LearnJava
-my progression during my java learning
+My progression during my java learning
