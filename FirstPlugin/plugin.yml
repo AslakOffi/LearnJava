@@ -4,10 +4,10 @@ author: KingAslak
 main: fr.kingaslak.firstplugin.FirstPlugin
 commands:
   aslak:
-   description: Ceci est une commande de test
-   permission: aslak.use
+     description: Ceci est une commande de test
+     permission: aslak.use
   alert:
-   descirption: Ceci est un broadcast custom
-   permission: bc.use
+     descirption: Ceci est un broadcast custom
+     permission: bc.use
   spawn:
-   description: Ceci est une commande pour se téléporter au spawn du serveur
+     description: Ceci est une commande pour se tÃ©lÃ©porter au spawn du serveur
