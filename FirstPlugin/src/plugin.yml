@@ -11,3 +11,4 @@ commands:
      permission: bc.use
   spawn:
      description: "Ceci est une commande pour se teleporter au spawn du serveur"
+     
